@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1.5px solid #ccc;
+  font-family: monospace;
+}
+
+button {
+  font-size: 1rem;
+  padding: 8px 15px;
+  margin-left: 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(59, 34, 107);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(46, 20, 109);
+}
+
+#characters {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+form.character-form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  max-width: 420px;
+  width: 100%;
+  text-align: left;
+}
+
+form.character-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+form.character-form input,
+form.character-form textarea {
+  width: 100%;
+  max-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1.5px solid #ccc;
+  margin-bottom: 18px;
+  resize: vertical;
+}
+
+form.character-form input[type="text"],
+form.character-form input[type="number"] {
+  height: 40px;
+}
+
+form.character-form textarea {
+  height: 120px;
+  line-height: 1.4;
+}
